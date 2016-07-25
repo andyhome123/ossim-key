@@ -1,0 +1,7 @@
+# Ignore everyhing 
+*
+# But some key file
+!.gitignore
+!include/classes/dashboard_tab.inc
+!www/av_asset/common/js/asset_indicators.js.php
+
