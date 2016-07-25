@@ -416,7 +416,7 @@ class Dashboard_tab
 
         $_cloned = new self('', $user_dest);
 
-        $_cloned->set_title($this->title . ' ' . _('Copy'));
+        $_cloned->set_title(_($this->title) . ' ' . _('Copy'));
         $_cloned->set_layout($this->layout);
 
         $_cloned->save_db();        
@@ -572,7 +572,7 @@ class Dashboard_tab
 
         $tab_title = "  <div class='db_tab_title'>
                             <a href='javascript:;' class='$title_class'>
-                                ". $this->title."
+                                ". _($this->title)."
                             </a>
                         </div>";
 
